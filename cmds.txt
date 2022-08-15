@@ -8,6 +8,6 @@ git status
 git commit -m "first commit"
 git log
 
-git branch -M main
 git remote add origin https://github.com/chakradhar06/demo.git
+git branch -M main
 git push -u origin main
