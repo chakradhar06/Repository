@@ -2,12 +2,12 @@ git config --global user.name chakradhar06
 git config --global user.email chakrivanarasi@gmail.com
 
 git init
-git add file_name
+git add file_name (git add .   //to add the whole folder)
 git status
 
 git commit -m "first commit"
 git log
 
-git remote add origin https://github.com/chakradhar06/demo.git
 git branch -M main
+git remote add origin https://github.com/chakradhar06/demo.git
 git push -u origin main
