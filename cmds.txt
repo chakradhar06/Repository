@@ -1,8 +1,8 @@
+#cloning - git clone https://github.com/chakradhar06/demo
+           git clone --branch br https://github.com/chakradhar06/demo
+
 git config --global user.name chakradhar06
 git config --global user.email chakrivanarasi@gmail.com
-
-git clone https://github.com/chakradhar06/demo
-git clone --branch br https://github.com/chakradhar06/demo
 
 git init
 git add file_name (git add .   //to add the whole folder)
@@ -12,9 +12,10 @@ git commit -m "first commit"
 git log
 
 git branch -M main
-git remote add origin https://github.com/chakradhar06/demo.git
+git remote add origin https://github.com/chakradhar06/demo.git  (git remote -v // to check)
 git push -u origin main
 
-#new branch - git checkout -b br
-              git checkout main
+#new branch - git checkout -b br   // this will create new branch and shift to that new branch
               git branch
+              git checkout main
+              git merge br
