@@ -1,6 +1,9 @@
 git config --global user.name chakradhar06
 git config --global user.email chakrivanarasi@gmail.com
 
+git clone https://github.com/chakradhar06/demo
+git clone --branch br https://github.com/chakradhar06/demo
+
 git init
 git add file_name (git add .   //to add the whole folder)
 git status
