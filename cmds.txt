@@ -14,3 +14,7 @@ git log
 git branch -M main
 git remote add origin https://github.com/chakradhar06/demo.git
 git push -u origin main
+
+#new branch - git checkout -b br
+              git checkout main
+              git branch
