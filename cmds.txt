@@ -11,6 +11,8 @@ git status
 git commit -m "first commit"
 git log
 
+git branch
+
 git branch -M main
 git remote add origin https://github.com/chakradhar06/demo.git  (git remote -v // to check)
 git remote set-url origin https://github.com/chakradhar06/demo.git  (git remote -v // to check)
