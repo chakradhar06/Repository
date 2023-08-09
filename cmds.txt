@@ -12,9 +12,11 @@ git commit -m "first commit"
 git commit -m "first commit" file_name
 git log
 
-git branch
+git branch // for checking the branches
+git branch branchName // for creating a new branch
+git branch -M main // for renaming the branch on the branch you are
+git checkout main // for shifting into the branch - 'main' 
 
-git branch -M main
 git remote add origin https://github.com/chakradhar06/demo.git  (git remote -v // to check)
 git remote set-url origin https://github.com/chakradhar06/demo.git  (git remote -v // to check)
 git push -u origin main
