@@ -16,6 +16,7 @@ git branch // for checking the branches
 git branch branchName // for creating a new branch
 git branch -M main // for renaming the branch on the branch you are
 git checkout main // for shifting into the branch - 'main' 
+git branch -d br // for deleting the branch with name - 'br'
 
 git remote add origin https://github.com/chakradhar06/demo.git  (git remote -v // to check)
 git remote set-url origin https://github.com/chakradhar06/demo.git  (git remote -v // to check)
