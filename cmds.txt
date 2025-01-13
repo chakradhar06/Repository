@@ -22,12 +22,8 @@ git push --set-upstream origin main
 git pull // to get the added files from the repo to local
 
 git branch // for checking the branches
-git branch branchName // for creating a new branch
+git branch chakri // for creating a new branch
 git branch -M main // for renaming the branch on the branch you are
-git checkout main // for shifting into the branch - 'main' 
-git branch -d br // for deleting the branch with name - 'br'
-
-#new branch - git checkout -b br   // this will create new branch and shift to that new branch
-              git branch
-              git checkout main
-              git merge br
+git branch -d chakri // for deleting the branch with name - 'br'
+git checkout master // for shifting into the branch - 'main' 
+git merge chakri // for merging the chakri branch into master 
