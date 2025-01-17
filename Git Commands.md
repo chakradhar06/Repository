@@ -9,13 +9,13 @@ git config --global user.email chakrivanarasi@gmail.com <br>
 ## Basic Commands
 git init <br>
 git add file_name (git add .   //to add the whole folder) <br>
-git status <br>
+**git status** <br>
 
 git commit -m "first commit" <br>
 git commit -m "first commit" file_name <br>
 
 git log (shows logs on that branch only) <br>
-git log --oneline <br>
+**git log --oneline** <br>
 
 git remote add origin https://github.com/chakradhar06/demo.git  (git remote -v // to check) <br>
 git remote set-url origin https://github.com/chakradhar06/demo.git  (git remote -v // to check) <br>
@@ -31,3 +31,10 @@ git branch -M main (for renaming the branch on the branch you were) <br>
 git branch -d chakri (for deleting the branch with name - 'br') <br>
 git checkout main (for shifting into the branch - 'main') <br>
 git merge chakri (for merging the chakri branch into main) <br>
+
+## Undoing Changes and Recovering from Mistakes in Git
+git restore <file_name> (Undo Changes in the Working Directory) <br>
+git restore --staged <file_name> (Unstage Files from the Staging Area) <br>
+
+
+
