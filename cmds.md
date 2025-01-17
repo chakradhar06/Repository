@@ -1,9 +1,12 @@
-#cloning - git clone https://github.com/chakradhar06/demo
-           git clone --branch br https://github.com/chakradhar06/demo
+## Cloning
+git clone https://github.com/chakradhar06/demo
+git clone --branch br https://github.com/chakradhar06/demo
 
+## Logging In Commands
 git config --global user.name chakradhar06
 git config --global user.email chakrivanarasi@gmail.com
 
+## Basic Commands
 git init
 git add file_name (git add .   //to add the whole folder)
 git status
@@ -21,6 +24,7 @@ git push -u origin main
 git push --set-upstream origin main
 git pull // to get the added files from the repo to local
 
+## Branching & Merging Commands
 git branch // for checking the branches
 git branch chakri // for creating a new branch
 git branch -M main // for renaming the branch on the branch you are
