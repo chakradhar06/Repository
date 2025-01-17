@@ -14,7 +14,7 @@ git status <br>
 git commit -m "first commit" <br>
 git commit -m "first commit" file_name <br>
 
-git log // shows logs on that branch only <br>
+git log (shows logs on that branch only) <br>
 git log --oneline <br>
 
 git remote add origin https://github.com/chakradhar06/demo.git  (git remote -v // to check) <br>
@@ -22,12 +22,12 @@ git remote set-url origin https://github.com/chakradhar06/demo.git  (git remote 
 
 git push -u origin main <br>
 git push --set-upstream origin main <br>
-git pull // to get the added files from the repo to local <br>
+git pull (to get the added files from the repo to local) <br>
 
 ## Branching & Merging Commands
-git branch // for checking the branches <br>
-git branch chakri // for creating a new branch <br>
-git branch -M main // for renaming the branch on the branch you were <br>
-git branch -d chakri // for deleting the branch with name - 'br' <br>
-git checkout master // for shifting into the branch - 'main' <br>
-git merge chakri // for merging the chakri branch into master <br>
+git branch (for checking the branches) <br>
+git branch chakri (for creating a new branch) <br>
+git branch -M main (for renaming the branch on the branch you were) <br>
+git branch -d chakri (for deleting the branch with name - 'br') <br>
+git checkout main (for shifting into the branch - 'main') <br>
+git merge chakri (for merging the chakri branch into main) <br>
