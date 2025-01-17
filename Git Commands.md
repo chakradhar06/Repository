@@ -19,6 +19,7 @@ git log (shows logs on that branch only) <br>
 
 git remote add origin https://github.com/chakradhar06/demo.git  (git remote -v // to check) <br>
 git remote set-url origin https://github.com/chakradhar06/demo.git  (git remote -v // to check) <br>
+git remote remove origin (for removing the origin) <br>
 
 git push -u origin main <br>
 git push --set-upstream origin main <br>
