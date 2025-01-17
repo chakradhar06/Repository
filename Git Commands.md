@@ -33,8 +33,11 @@ git checkout main (for shifting into the branch - 'main') <br>
 git merge chakri (for merging the chakri branch into main) <br>
 
 ## Undoing Changes and Recovering from Mistakes in Git
-git restore <file_name> (Undo Changes in the Working Directory) <br>
-git restore --staged <file_name> (Unstage Files from the Staging Area) <br>
+git restore <file_name> (Undo Changes in the **Working Directory**) <br>
+git restore --staged <file_name> (Unstage Files from the **Staging Area**) <br>
+git reset --soft <commit_hash>(or)HEAD~1 (**Undo a Commit** Without Losing Changes - Removing commits till that hash) <br>
+git reset --hard <commit_hash>(or)HEAD~1 (**Undo a Commit** and Discard Changes - Removing commits till that hash) <br>
+git revert <commit_hash> (Revert a Commit Without Changing History - Removing any middle commit) <br>
 
 
 
