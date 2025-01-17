@@ -23,15 +23,17 @@ git remote remove origin (for removing the origin) <br>
 
 git push -u origin main <br>
 git push --set-upstream origin main <br>
-git pull origin (to get the added files from the repo to local) <br>
+git pull origin main (to get the added files from the repo main branch to local ) <br>
 
 ## Branching & Merging Commands
 git branch (for checking the branches) <br>
 git branch chakri (for creating a new branch) <br>
-git branch -M main (for renaming the branch on the branch you were) <br>
-git branch -d chakri (for deleting the branch with name - 'br') <br>
 git checkout main (for shifting into the branch - 'main') <br>
 git merge chakri (for merging the chakri branch into main) <br>
+
+git checkout -b chakradhar (for creating and shifting to that branch chakradhar) 
+git branch -M main (for renaming the branch on the branch you were) <br>
+git branch -d chakri (for deleting the branch with name - 'br') <br>
 
 ## Undoing Changes and Recovering from Mistakes in Git
 git restore <file_name> (Undo Changes in the **Working Directory**) <br>
