@@ -23,7 +23,7 @@ git remote remove origin (for removing the origin) <br>
 
 git push -u origin main <br>
 git push --set-upstream origin main <br>
-git pull (to get the added files from the repo to local) <br>
+git pull origin (to get the added files from the repo to local) <br>
 
 ## Branching & Merging Commands
 git branch (for checking the branches) <br>
